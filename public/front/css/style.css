@@ -1,0 +1,596 @@
+/* #### Loaded Fonts Using Font face #### */
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Regular'), url('Gill Sans.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Condensed Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Condensed Regular'), url('GillSans Condensed.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Italic'), url('Gill Sans Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Light'), url('Gill Sans Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Light Italic'), url('Gill Sans Light Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Medium'), url('Gill Sans Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Medium Italic'), url('Gill Sans Medium Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Bold'), url('Gill Sans Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Condensed Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Condensed Bold'), url('GillSans Condensed Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Bold Italic'), url('Gill Sans Bold Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Heavy'), url('Gill Sans Heavy.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gill Sans Heavy Italic'), url('../fonts/Gill Sans Heavy Italic.woff') format('woff');
+}
+/* #### Loaded Fonts Using Font face #### */
+
+/* #### Header Start #### */
+.nav-bg{
+    background: #EFF4F6;
+}
+#header{
+    background: #EFF4F6;
+    padding: 10px;
+}
+.navbar{
+
+}
+.navbar-brand{
+    text-transform: uppercase;
+    background: #FFFFFF;
+    padding: 5px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans MT', 'Sans-Serif';
+    font-size: 46px;
+    color: #707070;
+    text-align: center;
+}
+a.navbar-brand{
+
+}
+.navigation ul.navbar-nav > li > a{
+    font-family: 'Segoe UI', 'Sans-Serif';
+    font-size: 15px;
+    color: #707070;
+    background: #FFFFFF;
+    margin-right: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+li.nav-item{
+    margin-top: 38px;
+}
+.topbar-right{
+    margin-top: 30px;
+}
+.topbar-right a{
+    font-family: 'Segoe UI', 'Sans-Serif';
+    background: #FFFFFF;
+    padding: 10px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* #### Header End #### */
+
+/* #### Self Learn Start #### */
+#selfLearn{
+    background: #F8FCFF;
+}
+.self-heading{
+    padding-top: 10px;
+}
+.self-heading h1{
+    font-family: 'Gill Sans MT', 'Sans-Serif';
+    font-size: 80px;
+    color: #707070;
+    text-transform: uppercase;
+}
+.self-list span{
+    font-family: 'Segoe UI, Semilight';
+    font-size: 45px;
+    color: #707070;
+    margin-right: 10px;
+
+}
+.self-content{
+    margin-right: 20px;
+    background: #FFFFFF;
+    padding: 50px;
+    border-radius: 15px;
+}
+.self-content p{
+    font-family: 'self-content', 'Sans-Serif';
+    font-size: 30px;
+    color: #707070;
+    text-align: center;
+
+}
+/* #### Self Learn End #### */
+
+
+/* #### How It Work Start #### */
+
+#howWork{
+    background: #F8FCFF;
+}
+.howWork-heading{
+    padding-top: 50px;
+}
+.howWork-heading h2{
+    font-family: 'Segoe UI, Italic';
+    font-size: 70px;
+    color: #707070;
+}
+.howWork-icon{}
+.howWork-icon i{
+    color: #707070;
+    font-size: 50px;
+    padding: 15px 0px;
+    cursor: pointer;}
+/*.fa{
+    color: #707070;
+    font-size: 50px;
+    padding: 15px 0px;
+    cursor: pointer;
+}*/
+.howWork-content{
+    padding: 0px 200px;
+}
+.howWork-content p{
+    font-family: 'Segoe UI, Italic';
+    font-size: 35px;
+    color: #707070;
+    text-align: center;
+}
+/* #### How It Work End #### */
+
+/* #### About Start #### */
+#about{
+    background: #F8FCFF;
+}
+.about-heading{
+    padding-top: 50px;
+}
+.about-heading h2{
+    font-family: 'Segoe UI, Italic';
+    font-size: 70px;
+    color: #707070;
+}
+.about-content{
+    background: #FFFFFF;
+    padding: 50px;
+    border-radius: 15px;
+}
+.about-content p{
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Segoe UI, Italic';
+    text-align: center;
+}
+/* #### About End #### */
+
+/* #### Future Plan Start #### */
+#future{
+    background: #F8FCFF;
+    padding-bottom: 50px;
+}
+.future-heading{
+    padding-top: 50px;
+}
+.future-heading h2{
+    font-family: 'Segoe UI, Italic';
+    font-size: 70px;
+    color: #707070;
+}
+.future-content{
+    background: #FFFFFF;
+    padding: 50px;
+    border-radius: 15px;
+}
+.future-content p{
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Segoe UI, Italic';
+    text-align: center;
+}
+
+/* #### Future Plan End #### */
+
+/* #### Footer Start #### */
+#footer{
+
+}
+.fLeft{
+    background: #F2F9FB;
+    padding-bottom: 20px;
+    padding-top: 95px;
+}
+.fLeft ul{
+
+}
+.fLeft ul li{
+    list-style: none;
+
+}
+.fLeft ul li a{
+    font-family: 'Segoe UI, Regular';
+    font-size: 25px;
+    color: #707070;
+    text-decoration: none;
+}
+.footer-blank{
+
+}
+.fRight{
+    background: #F2F9FB;
+    padding-bottom: 84px;
+    padding-top: 50px;
+
+}
+.fRight h3{
+    font-family: 'Segoe UI, Regular';
+    font-size: 30px;
+    color: #707070;
+    text-align: center;
+}
+.fRight h2{
+    font-family: 'Segoe UI, Regular';
+    color: #707070;
+    font-size: 36px;
+    padding-top: 46px;
+}
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: block;
+    margin: 10px 0px;
+    padding: 0;
+
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+.social-network a.icoRss {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+/* footer social icons  End*/
+.copy{
+    background: #E8F5FF;
+    padding: 20px;
+
+}
+.copy p{
+    font-family: 'Segoe UI, Semilight';
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+/* #### Footer End #### */
+
+/*-----------Page----------*/
+
+/* #### SignUp Start #### */
+#signup{
+    background: #F8FCFF;
+    padding-bottom: 50px;
+}
+.signup{
+
+}
+.signup h2{
+    font-family: 'Segoe UI, Light';
+    font-size: 25px;
+    color: #707070;
+    padding: 20px 0px;
+}
+table{
+    padding: 20px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+.label{
+    font-family: 'Segoe UI, Light';
+    font-size: 17px;
+    color: #707070;
+    padding-right: 15px;
+}
+input[type="submit"]{
+    font-family: 'Segoe UI, Light';
+    color: #707070;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    font-size: 14px;
+
+}
+.logInHere{
+    font-family: 'Segoe UI, Light';
+    font-size: 14px;
+    color: #0077FF;
+}
+
+/* #### SignUP End #### */
+
+/*-----------Page----------*/
+/* #### Login Start #### */
+#login{
+    background: #F8FCFF;
+    padding-bottom: 50px;
+}
+.login h2{
+    font-family: 'Segoe UI, Light';
+    font-size: 25px;
+    color: #707070;
+    padding: 20px 0px;
+}
+
+/* #### Login End #### */
+
+/*-----------Page----------*/
+/* #### Contact Start #### */
+#contact{
+    background: #F7F7F7;
+    padding-bottom: 50px; 
+}
+.contact h2{
+    font-family: 'Segoe UI, Light';
+    font-size: 25px;
+    color: #707070;
+    padding: 20px 0px;
+}
+.contact textArea { 
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #9F9FA1;
+	border-radius: 5px; 
+	margin-bottom: 10px;
+}
+/* #### Contact End #### */
+
+/*-----------Page----------*/
+/* #### Team Member Start #### */
+#team{
+    background: #F8FCFF;
+}
+.team-heading{
+    padding-top: 50px;
+}
+.team-heading h2{
+    font-family: 'Segoe UI, Italic';
+    font-size: 60px;
+    color: #707070;
+}
+.team-content{
+    background: #FFFFFF;
+}
+.team-content h2{
+    font-family: 'Segoe UI, Regular';
+    font-size: 35px;
+    color: #707070;
+}
+.team-content ul{
+    
+}
+.team-content ul li{
+    list-style: none;
+}
+.designation{
+    font-family: 'Segoe UI, Regular';
+    font-size: 25px;
+    color: #707070;
+}
+.team-content ul li a{
+    font-family: 'Segoe UI, Light';
+    font-size: 25px;
+    color: #707070;
+}
+/*.teamInfo{
+   float: right; 
+}*/
+.teamInfo a{
+    
+}
+.teamInfo i{
+    
+}
+
+/* #### Team Member Start #### */
+
+
+
+
+.thankuarea{
+        padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
